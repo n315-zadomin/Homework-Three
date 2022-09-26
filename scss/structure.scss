@@ -1,0 +1,32 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+// includes fonts for website 
+@font-face {
+    font-family: SourceCodeProBold;
+    src: url(../css/static/SourceCodePro-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: SourceCodeProMedium;
+    src: url(../css/static/SourceCodePro-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: SourceCodeProItalic;
+    src: url(../css/static/SourceCodePro-Italic.ttf);
+  }
+
+  @font-face {
+    font-family: SourceCodeProRegular;
+    src: url(../css/static/SourceCodePro-Regular.ttf);
+  }

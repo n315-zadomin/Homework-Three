@@ -1,0 +1,24 @@
+//stylng the navigation
+nav {
+    height: 50px;
+    background-image: linear-gradient(to right, #efc2f1, #ffbdda, #ffbeb9, #ffca97, #ffdc82, #eee67d, #d8ef7e, #bbf987, #8cf19e, #61e6b4, #40d9c5, #37cace);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+        color: #000;
+        font-family: SourceCodeProBold;
+        text-decoration: none;
+    }
+}
+
+// styling hero image
+.uvst {
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/UVST_Header.jpg);
+
+}

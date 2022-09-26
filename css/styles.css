@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: SourceCodeProBold;
+  src: url(../css/static/SourceCodePro-Bold.ttf);
+}
+@font-face {
+  font-family: SourceCodeProMedium;
+  src: url(../css/static/SourceCodePro-Medium.ttf);
+}
+@font-face {
+  font-family: SourceCodeProItalic;
+  src: url(../css/static/SourceCodePro-Italic.ttf);
+}
+@font-face {
+  font-family: SourceCodeProRegular;
+  src: url(../css/static/SourceCodePro-Regular.ttf);
+}
+nav {
+  height: 50px;
+  background-image: linear-gradient(to right, #efc2f1, #ffbdda, #ffbeb9, #ffca97, #ffdc82, #eee67d, #d8ef7e, #bbf987, #8cf19e, #61e6b4, #40d9c5, #37cace);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #000;
+  font-family: SourceCodeProBold;
+  text-decoration: none;
+}
+
+.uvst {
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/UVST_Header.jpg);
+}
+
+.titicontent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.titicontent h1 {
+  font-size: 40px;
+  color: #000;
+  font-family: SourceCodeProMedium;
+}
+.titicontent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.titicontent p {
+  font-size: 20px;
+  color: #000;
+  font-family: SourceCodeProRegular;
+}
+.titicontent p a {
+  color: #47A62D;
+}
+.titicontent p .title {
+  font-family: SourceCodeProItalic;
+}
+.titicontent .titiSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.titicontent .titiSpanish .six-span-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.titicontent .titiSpanish .six-span-lyrics a {
+  color: #000;
+}
+.titicontent .titiSpanish img {
+  width: 450px;
+  height: 300px;
+}
+.titicontent .titiEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.titicontent .titiEnglish .six-eng-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.titicontent .titiEnglish .six-eng-lyrics a {
+  color: #000;
+}
+.titicontent .titiEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.titicontent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.portocontent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.portocontent h1 {
+  font-size: 40px;
+  color: #000;
+  font-family: SourceCodeProMedium;
+}
+.portocontent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.portocontent p {
+  font-size: 20px;
+  color: #000;
+  font-family: SourceCodeProRegular;
+}
+.portocontent p a {
+  color: #47A62D;
+}
+.portocontent p .title {
+  font-family: SourceCodeProItalic;
+}
+.portocontent .portoSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.portocontent .portoSpanish .six-span-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.portocontent .portoSpanish .six-span-lyrics a {
+  color: #000;
+}
+.portocontent .portoSpanish img {
+  width: 450px;
+  height: 300px;
+}
+.portocontent .portoEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.portocontent .portoEnglish .six-eng-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.portocontent .portoEnglish .six-eng-lyrics a {
+  color: #000;
+}
+.portocontent .portoEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.portocontent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.neveritacontent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.neveritacontent h1 {
+  font-size: 40px;
+  color: #000;
+  font-family: SourceCodeProMedium;
+}
+.neveritacontent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.neveritacontent p {
+  font-size: 20px;
+  color: #000;
+  font-family: SourceCodeProRegular;
+}
+.neveritacontent p .title {
+  font-family: SourceCodeProItalic;
+}
+.neveritacontent .neveritaSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.neveritacontent .neveritaSpanish .six-span-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.neveritacontent .neveritaSpanish .six-span-lyrics a {
+  color: #000;
+}
+.neveritacontent .neveritaSpanish img {
+  width: 450px;
+  height: 300px;
+}
+.neveritacontent .neveritaEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.neveritacontent .neveritaEnglish .six-eng-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.neveritacontent .neveritaEnglish .six-eng-lyrics a {
+  color: #000;
+}
+.neveritacontent .neveritaEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.neveritacontent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.ojitoscontent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.ojitoscontent h1 {
+  font-size: 40px;
+  color: #000;
+  font-family: SourceCodeProMedium;
+}
+.ojitoscontent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.ojitoscontent p {
+  font-size: 20px;
+  color: #000;
+  font-family: SourceCodeProRegular;
+}
+.ojitoscontent p a {
+  color: #47A62D;
+}
+.ojitoscontent p .title {
+  font-family: SourceCodeProItalic;
+}
+.ojitoscontent .ojitosSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.ojitoscontent .ojitosSpanish .six-span-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.ojitoscontent .ojitosSpanish .six-span-lyrics a {
+  color: #000;
+}
+.ojitoscontent .ojitosSpanish img {
+  width: 450px;
+  height: 300px;
+}
+.ojitoscontent .ojitosEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.ojitoscontent .ojitosEnglish .six-eng-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.ojitoscontent .ojitosEnglish .six-eng-lyrics a {
+  color: #000;
+}
+.ojitoscontent .ojitosEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.ojitoscontent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.callaitacontent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.callaitacontent h1 {
+  font-size: 40px;
+  color: #000;
+  font-family: SourceCodeProMedium;
+}
+.callaitacontent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.callaitacontent p {
+  font-size: 20px;
+  color: #000;
+  font-family: SourceCodeProRegular;
+}
+.callaitacontent p a {
+  color: #47A62D;
+}
+.callaitacontent p .title {
+  font-family: SourceCodeProItalic;
+}
+.callaitacontent .callaitaSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.callaitacontent .callaitaSpanish .six-span-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.callaitacontent .callaitaSpanish .six-span-lyrics a {
+  color: #000;
+}
+.callaitacontent .callaitaSpanish img {
+  width: 450px;
+  height: 300px;
+}
+.callaitacontent .callaitaEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.callaitacontent .callaitaEnglish .six-eng-lyrics {
+  color: #000;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.callaitacontent .callaitaEnglish .six-eng-lyrics a {
+  color: #000;
+}
+.callaitacontent .callaitaEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.callaitacontent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+footer {
+  height: 70px;
+  position: relative;
+  background-image: linear-gradient(to right, #efc2f1, #ffbdda, #ffbeb9, #ffca97, #ffdc82, #eee67d, #d8ef7e, #bbf987, #8cf19e, #61e6b4, #40d9c5, #37cace);
+}
+footer p {
+  color: #000;
+  margin-top: 30px;
+  margin-left: 550px;
+  font-family: SourceCodeProBold;
+  position: absolute;
+}
+
+/*# sourceMappingURL=styles.css.map */
